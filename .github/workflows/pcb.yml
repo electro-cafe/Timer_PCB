@@ -10,9 +10,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Check KiCad files
+      - name: Check KiCad files Stepper
         uses: ./.github/actions/kicad-action
         with:
-          directory: './'
-          sch-files: 'Timer_PCB'
-          pcb-files: 'Timer_PCB'
+          directory: 'timer-pcb-stepper'
+          sch-files: 'timer-pcb-stepper'
+          pcb-files: 'timer-pcb-stepper'
+      - name: Check KiCad files Leds
+        uses: ./.github/actions/kicad-action
+        with:
+          directory: 'timer-pcb-led'
+          sch-files: 'timer-pcb-led'
+          pcb-files: 'timer-pcb-led'
