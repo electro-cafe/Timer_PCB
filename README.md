@@ -1,2 +1,2 @@
 # Timer_PCB
-All file relative to the PCB of the timer project 
+This repository contain all file relative to the PCB of the timer project. 
