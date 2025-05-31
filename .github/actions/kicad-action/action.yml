@@ -1,0 +1,22 @@
+name: "KiCad Action"
+description: "Check ERC/DRC of KiCad files"
+inputs:
+  directory:
+    description: "Directory to check"
+    required: false
+    default: "."
+  sch-files:
+    description: "Schematic Files (base only)"
+    required: false
+    default: ""
+  pcb-files:
+    description: "PCB Files (base only)"
+    required: false
+    default: ""
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.directory }}
+    - ${{ inputs.sch-files }}
+    - ${{ inputs.pcb-files }}

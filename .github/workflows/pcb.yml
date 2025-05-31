@@ -1,0 +1,18 @@
+name: check-pcb
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check-rules:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check KiCad files
+        uses: ./.github/actions/kicad-action
+        with:
+          directory: './'
+          sch-files: 'rainbow-board'
+          pcb-files: 'rainbow-board'
