@@ -14,5 +14,5 @@ jobs:
         uses: ./.github/actions/kicad-action
         with:
           directory: './'
-          sch-files: 'rainbow-board'
-          pcb-files: 'rainbow-board'
+          sch-files: 'Timer_PCB'
+          pcb-files: 'Timer_PCB'
