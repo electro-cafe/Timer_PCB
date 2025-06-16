@@ -1,0 +1,14 @@
+** Drc report for timer-pcb-stepper.kicad_pcb **
+** Created on 2025-06-16T23:23:22+0200 **
+
+** Found 1 DRC violations **
+[silk_edge_clearance]: Sérigraphie tronquée par bord de PCB
+    Règle: configuration des contraintes de la sérigraphie; warning
+    @(134,0000 mm, 57,0000 mm): Rectangle sur Edge.Cuts
+    @(152,7250 mm, 68,5250 mm): Rectangle sur F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

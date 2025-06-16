@@ -992,6 +992,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 39.37 85.09)
+		(end 39.37 85.09)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e87da783-1c3a-4ad2-9c90-9b088faa2a41)
+	)
 	(text "Mounting hole\n"
 		(exclude_from_sim no)
 		(at 189.23 78.994 0)
@@ -1040,31 +1052,25 @@
 		)
 		(uuid "eff33d7d-27b8-428b-9b3c-b155a717d02d")
 	)
-	(junction
-		(at 54.61 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "864d6cb2-a0cc-462b-ac33-67b989844f9b")
-	)
 	(wire
 		(pts
-			(xy 54.61 153.67) (xy 54.61 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02babdd2-e05f-45c3-a364-922b4473571c")
-	)
-	(wire
-		(pts
-			(xy 54.61 147.32) (xy 54.61 153.67)
+			(xy 59.69 151.13) (xy 59.69 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0b15e2d3-9fda-46c5-bc6d-497b5877b1b6")
+	)
+	(wire
+		(pts
+			(xy 43.18 124.46) (xy 44.45 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e000e6-9988-41f8-9bd5-61dffccaa1cc")
 	)
 	(wire
 		(pts
@@ -1125,6 +1131,46 @@
 			(type dash)
 		)
 		(uuid "40ede610-39f3-462e-8e4c-546718a4c627")
+	)
+	(wire
+		(pts
+			(xy 59.69 153.67) (xy 54.61 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d30d169-7b95-4d2e-992f-34c071443b4d")
+	)
+	(wire
+		(pts
+			(xy 43.18 128.27) (xy 44.45 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6514bdc0-2922-47f6-a646-2d42c2459714")
+	)
+	(wire
+		(pts
+			(xy 59.69 163.83) (xy 59.69 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8769b37d-ef5e-497b-9478-db18be39bd69")
+	)
+	(wire
+		(pts
+			(xy 54.61 161.29) (xy 59.69 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ce5db1-4958-4cbf-959e-abf399067290")
 	)
 	(global_label "On{slash}off"
 		(shape output)
@@ -1215,8 +1261,8 @@
 		)
 	)
 	(global_label "5V_chargeur_input"
-		(shape output)
-		(at 44.45 128.27 180)
+		(shape input)
+		(at 43.18 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1226,7 +1272,7 @@
 		)
 		(uuid "e32bfbd7-6db7-4962-a592-db6df2d76b3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.1084 128.27 0)
+			(at 22.8384 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1237,8 +1283,8 @@
 		)
 	)
 	(global_label "GND_chargeur_input"
-		(shape output)
-		(at 44.45 124.46 180)
+		(shape input)
+		(at 43.18 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1248,13 +1294,80 @@
 		)
 		(uuid "e69ea811-a7fa-4e98-baa3-048a5d832bb4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.536 124.46 0)
+			(at 21.266 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 54.61 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "013eba9b-43b7-4112-955e-65feee414f7d")
+		(property "Reference" "#FLG02"
+			(at 52.705 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 50.8 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 54.61 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7082410-947d-46fd-a1ab-851412090b2f")
+		)
+		(instances
+			(project "timer-pcb-stepper"
+				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
+					(reference "#FLG02")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1477,7 +1590,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 54.61 147.32 0)
+		(at 59.69 151.13 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1486,7 +1599,7 @@
 		(dnp no)
 		(uuid "56be7520-46aa-4289-a933-77475e705eb6")
 		(property "Reference" "#PWR034"
-			(at 54.61 151.13 0)
+			(at 59.69 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,7 +1608,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 54.61 142.24 0)
+			(at 59.69 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1503,7 +1616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 147.32 0)
+			(at 59.69 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1512,7 +1625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 147.32 0)
+			(at 59.69 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1521,7 +1634,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 54.61 147.32 0)
+			(at 59.69 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,7 +1937,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 160.02 0)
+		(at 59.69 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1833,7 +1946,7 @@
 		(fields_autoplaced yes)
 		(uuid "84ae62e3-bc6f-4494-be60-ae3b7b25fcb8")
 		(property "Reference" "#PWR029"
-			(at 54.61 166.37 0)
+			(at 59.69 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1842,7 +1955,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 165.1 0)
+			(at 59.69 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,7 +1963,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 160.02 0)
+			(at 59.69 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +1972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 160.02 0)
+			(at 59.69 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,7 +1981,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 160.02 0)
+			(at 59.69 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)

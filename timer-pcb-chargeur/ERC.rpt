@@ -1,0 +1,18 @@
+Rapport ERC (2025-06-16T23:21:28+0200, Encodage UTF8)
+
+***** Feuille /
+[lib_symbol_mismatch]: Le symbole 'JST_04' ne correspond pas à la copie en librairie 'PCM_SL_Connectors'
+    ; warning
+    @(6250 mils, 7450 mils): Symbole J11 [JST_04]
+[pin_to_pin]: Les pins de type Power output et Power output sont connectées
+    ; error
+    @(2150 mils, 6350 mils): Symbol #FLG02 Pin 1 [Power output, Line]
+    @(1750 mils, 4800 mils): Symbol U1 Pin 1 [out-, Power output, Line]
+[power_pin_not_driven]: Pin entrée de puissance pilotée par aucune pin sortie de puissance
+    ; error
+    @(1750 mils, 5050 mils): Symbol U1 Pin 3 [B+, Power input, Line]
+[lib_symbol_mismatch]: Le symbole 'PCB_USB_connector' ne correspond pas à la copie en librairie '1_my_custom-_symbol_library'
+    ; warning
+    @(1750 mils, 4950 mils): Symbole U1 [PCB_USB_connector]
+
+** messages ERC: 4  Erreurs 2  Avertissements 2

@@ -859,12 +859,6 @@
 		)
 		(uuid "eff33d7d-27b8-428b-9b3c-b155a717d02d")
 	)
-	(junction
-		(at 31.75 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d49f0e4-ddea-4236-bbe0-d779c2708668")
-	)
 	(no_connect
 		(at 160.02 95.25)
 		(uuid "202d6e4a-2834-4fe0-b927-90bd2439b8a2")
@@ -924,16 +918,6 @@
 			(type default)
 		)
 		(uuid "0bf4fc56-4fed-44cd-9913-b7c2043bfd23")
-	)
-	(wire
-		(pts
-			(xy 31.75 102.87) (xy 31.75 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f0af7ba-1232-4449-bb06-87a4152e7375")
 	)
 	(wire
 		(pts
@@ -1054,6 +1038,16 @@
 			(type default)
 		)
 		(uuid "5e1f8565-afad-4a16-91f3-5a345825f001")
+	)
+	(wire
+		(pts
+			(xy 35.56 95.25) (xy 31.75 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621a0884-b6bb-48c7-acc0-b8fee5913020")
 	)
 	(wire
 		(pts
@@ -1217,7 +1211,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 91.44) (xy 31.75 97.79)
+			(xy 35.56 92.71) (xy 35.56 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1964,7 +1958,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 31.75 91.44 0)
+		(at 35.56 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1973,7 +1967,7 @@
 		(fields_autoplaced yes)
 		(uuid "460f0da1-fa78-4a82-bf1a-d1fbe9a1895f")
 		(property "Reference" "#PWR016"
-			(at 31.75 95.25 0)
+			(at 35.56 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,7 +1976,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 31.75 86.36 0)
+			(at 35.56 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,7 +1984,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 91.44 0)
+			(at 35.56 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,7 +1993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 91.44 0)
+			(at 35.56 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2008,7 +2002,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 31.75 91.44 0)
+			(at 35.56 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,6 +2641,73 @@
 			(project "Timer_PCB"
 				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
 					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 31.75 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5aff6d8-956a-4455-91fc-5ed473aedbda")
+		(property "Reference" "#FLG02"
+			(at 29.845 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 27.94 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 31.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78b54d4f-f258-4a2a-9a4a-c62a74a2333a")
+		)
+		(instances
+			(project "timer-pcb-led"
+				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -3498,7 +3559,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 31.75 97.79 90)
+		(at 31.75 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3507,7 +3568,7 @@
 		(fields_autoplaced yes)
 		(uuid "f24033d2-3598-4498-8aa4-355d15fca04f")
 		(property "Reference" "#FLG01"
-			(at 29.845 97.79 0)
+			(at 29.845 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3516,7 +3577,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 27.94 97.7899 90)
+			(at 27.94 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,7 +3586,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 97.79 0)
+			(at 31.75 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,7 +3595,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 97.79 0)
+			(at 31.75 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,7 +3604,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 31.75 97.79 0)
+			(at 31.75 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
