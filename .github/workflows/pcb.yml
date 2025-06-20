@@ -3,7 +3,6 @@ name: check-pcb
 on:
   pull_request:
   push:
-    branches: [main]
 
 jobs:
   check-rules:
