@@ -16,7 +16,7 @@ check_erc() {
         RETCODE=1
     fi
     echo "---------- BEGIN ERC REPORT ----------"
-    cat ${BASENAME}.rpt
+    cat ${BASENAME}-erc.rpt
     echo "---------- END ERC REPORT ----------"
 }
 
@@ -29,7 +29,7 @@ check_drc() {
         RETCODE=1
     fi
     echo "---------- BEGIN DRC REPORT ----------"
-    cat ${BASENAME}.rpt
+    cat ${BASENAME}-drc.rpt
     echo "---------- END DRC REPORT ----------"
 }
 
