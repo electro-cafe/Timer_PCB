@@ -9,6 +9,162 @@
 		(date "27.05.25")
 	)
 	(lib_symbols
+		(symbol "1_my_custom-_symbol_library:PCB_USB_connector"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PCB_USB_connector_0_1"
+				(rectangle
+					(start 31.75 -19.05)
+					(end 31.75 -19.05)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PCB_USB_connector_1_1"
+				(rectangle
+					(start 2.54 7.62)
+					(end 13.97 -8.89)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 114 40 71 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "USB\n"
+					(at 10.414 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 3.81 0)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 1.27 0)
+					(length 2.54)
+					(name "B+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "B-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -604,243 +760,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_SL_Connectors:JST_04"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J11"
-				(at 2.54 1.5241 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "JST_04"
-				(at 2.54 -1.0159 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
-				(at 0 9.144 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 9.144 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "JST Connector  4 pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "JST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "JST_04_0_1"
-				(rectangle
-					(start -1.27 5.334)
-					(end 1.27 -4.826)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -4.064) (xy -1.27 -4.826) (xy 1.27 -4.826) (xy 1.27 -4.064) (xy 1.016 -4.064) (xy 1.016 -4.572)
-						(xy -1.016 -4.572) (xy -1.016 -4.064) (xy -1.27 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -1.016)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -3.556)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0.254 4.064)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0.254 1.524)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.016 4.572)
-					(end 1.27 -4.064)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 4.572) (xy 1.27 5.334) (xy -1.27 5.334) (xy -1.27 4.572) (xy -1.016 4.572) (xy -1.016 5.08)
-						(xy 1.016 5.08) (xy 1.016 4.572) (xy 1.27 4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "JST_04_1_1"
-				(pin passive line
-					(at -3.81 3.81 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 1.27 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -1.27 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -3.81 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2505,6 +2424,244 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+BATT"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:-BATT"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-BATT_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "-BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2893,6 +3050,18 @@
 		)
 		(uuid "8551eef4-745c-4457-b798-056d9251208c")
 	)
+	(text "Chargeur"
+		(exclude_from_sim no)
+		(at 188.722 113.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d2fc011f-06ff-486a-b3da-78b7317820b1")
+	)
 	(text "to battery\n\n"
 		(exclude_from_sim no)
 		(at 107.95 168.148 0)
@@ -3121,16 +3290,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 53.34) (xy 97.79 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "041ca922-41b5-4638-873b-37ff54206e4e")
-	)
-	(wire
-		(pts
 			(xy 66.04 120.65) (xy 69.85 120.65)
 		)
 		(stroke
@@ -3309,6 +3468,16 @@
 		)
 		(uuid "18a3d0ec-3695-40bd-9f61-0f9a64c75496")
 	)
+	(polyline
+		(pts
+			(xy 177.8 107.95) (xy 285.75 107.95)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "191b8e84-9600-44ae-9ddf-e112491ab049")
+	)
 	(wire
 		(pts
 			(xy 27.94 92.71) (xy 30.48 92.71)
@@ -3401,7 +3570,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 193.04) (xy 114.3 193.04)
+			(xy 123.19 193.04) (xy 127 193.04)
 		)
 		(stroke
 			(width 0)
@@ -3418,16 +3587,6 @@
 			(type default)
 		)
 		(uuid "2e42bec4-0d19-46ac-a0be-3af1ef592f05")
-	)
-	(wire
-		(pts
-			(xy 151.13 185.42) (xy 154.94 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e9fba46-a6e4-454f-8300-fac7d9b543c0")
 	)
 	(wire
 		(pts
@@ -3518,6 +3677,16 @@
 			(type dash)
 		)
 		(uuid "3dd77b70-6b08-4fdf-ac35-2d0e9beb5d4c")
+	)
+	(wire
+		(pts
+			(xy 205.74 135.89) (xy 212.09 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f287ffe-6caa-4e41-86b8-6cddf01ba072")
 	)
 	(polyline
 		(pts
@@ -3628,6 +3797,16 @@
 			(type default)
 		)
 		(uuid "4fe0b47b-fcd6-418b-aaba-50bba0287eee")
+	)
+	(wire
+		(pts
+			(xy 205.74 128.27) (xy 212.09 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51acc17b-d8e8-4f7c-a6df-018a808d9bd0")
 	)
 	(wire
 		(pts
@@ -3851,6 +4030,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 142.24) (xy 267.97 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ac30d4-b4ea-41d4-8b55-a754ac7005e8")
+	)
+	(wire
+		(pts
 			(xy 158.75 52.07) (xy 163.83 52.07)
 		)
 		(stroke
@@ -4021,6 +4210,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 128.27) (xy 212.09 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad227c5d-a802-4143-8897-44c244eaf46b")
+	)
+	(wire
+		(pts
 			(xy 66.04 110.49) (xy 68.58 110.49)
 		)
 		(stroke
@@ -4031,6 +4230,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 139.7) (xy 212.09 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae8420d6-d355-4708-8ace-0d9d73dbc654")
+	)
+	(wire
+		(pts
 			(xy 29.21 118.11) (xy 30.48 118.11)
 		)
 		(stroke
@@ -4038,6 +4247,16 @@
 			(type default)
 		)
 		(uuid "b0803fa4-5837-4b65-8288-7cf186e7479a")
+	)
+	(wire
+		(pts
+			(xy 267.97 142.24) (xy 267.97 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b446c97e-a2b0-4c19-a36d-deff223466d1")
 	)
 	(wire
 		(pts
@@ -4068,6 +4287,16 @@
 			(type default)
 		)
 		(uuid "b82ab0f6-e137-4950-ae29-5c6cbe42d18f")
+	)
+	(wire
+		(pts
+			(xy 262.89 127) (xy 267.97 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83b2476-db8b-4f7a-b584-96da456390fa")
 	)
 	(wire
 		(pts
@@ -4181,6 +4410,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 138.43) (xy 212.09 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0c3c76-58fa-428a-8257-ae92200236c3")
+	)
+	(wire
+		(pts
 			(xy 147.32 35.56) (xy 142.24 35.56)
 		)
 		(stroke
@@ -4198,6 +4437,16 @@
 			(type default)
 		)
 		(uuid "d12cca0b-c807-4b5f-aaa5-376e01f3df3b")
+	)
+	(wire
+		(pts
+			(xy 205.74 132.08) (xy 212.09 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1509189-6e34-4bf2-b351-3044c412c919")
 	)
 	(wire
 		(pts
@@ -4228,6 +4477,16 @@
 			(type default)
 		)
 		(uuid "dfe1a5f1-605c-4802-8faa-ce7144112707")
+	)
+	(wire
+		(pts
+			(xy 267.97 124.46) (xy 267.97 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e139fc1b-e2e2-4621-810e-3ac17f6d13a2")
 	)
 	(wire
 		(pts
@@ -4288,16 +4547,6 @@
 			(type default)
 		)
 		(uuid "f5d9cdcb-a307-45d3-b1f2-4e7f9daaa9e4")
-	)
-	(wire
-		(pts
-			(xy 101.6 53.34) (xy 97.79 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8daccef-9bfe-430b-8f7e-f0c9913bf054")
 	)
 	(wire
 		(pts
@@ -4472,8 +4721,8 @@
 		)
 	)
 	(global_label "On{slash}off"
-		(shape output)
-		(at 114.3 190.5 180)
+		(shape input)
+		(at 127 190.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4483,7 +4732,7 @@
 		)
 		(uuid "12310b25-a438-4600-af87-5b9f599f0754")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.9044 190.5 0)
+			(at 117.6044 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4515,28 +4764,6 @@
 			)
 		)
 	)
-	(global_label "5V_chargeur_input"
-		(shape output)
-		(at 140.97 172.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1ca16611-9cde-426d-9b0f-5f9bb0c89d3e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.6284 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "WS2812_Led"
 		(shape output)
 		(at 68.58 90.17 0)
@@ -4555,6 +4782,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "On{slash}off"
+		(shape output)
+		(at 205.74 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c5b1d24-ab0e-4cc9-8378-237374aa1581")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.3444 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4616,50 +4865,6 @@
 		(uuid "45217f35-f415-4f6c-8973-431a7dc31e92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 107.0817 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND_chargeur_input"
-		(shape output)
-		(at 154.94 187.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "468a5c1b-c7de-4ec9-8e66-e62acbac0bff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.026 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V_chargeur_input"
-		(shape output)
-		(at 154.94 190.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4792feb7-7bfc-4586-9af3-5fce4eea57f9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.5984 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4858,28 +5063,6 @@
 		(uuid "837c7c08-f344-437f-8aa0-a71b2c26be7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 21.2053 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "On{slash}off"
-		(shape output)
-		(at 154.94 193.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "88877926-665e-41e8-834b-4684bb1bb2ff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.5444 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,28 +5424,6 @@
 			)
 		)
 	)
-	(global_label "GND_chargeur_input"
-		(shape output)
-		(at 140.97 170.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dddab846-15c3-4848-bb86-a40e14524f88")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.056 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "M2A"
 		(shape output)
 		(at 29.21 118.11 180)
@@ -5396,6 +5557,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 140.97 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0080cb0e-e93b-4aa2-bea3-39dd73b5239f")
+		(property "Reference" "#PWR05"
+			(at 144.78 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 137.16 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 140.97 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05933a69-3fa5-4640-993d-41131f8b25c5")
+		)
+		(instances
+			(project "timer-pcb-stepper"
+				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 186.69 90.17 0)
 		(unit 1)
@@ -5462,72 +5690,6 @@
 			(project "timer-pcb-stepper"
 				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 101.6 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03b7dab5-5957-495f-8dc5-08883ebf4c96")
-		(property "Reference" "#PWR012"
-			(at 101.6 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.346 56.642 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "439760ce-ab56-4b07-8f5a-843ce5159118")
-		)
-		(instances
-			(project "timer-pcb-stepper"
-				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5915,7 +6077,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Connectors:JST_02")
-		(at 118.11 191.77 0)
+		(at 130.81 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5924,7 +6086,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fb57271-bef0-4ab0-b740-98fe95105fc8")
 		(property "Reference" "J3"
-			(at 120.65 190.4999 0)
+			(at 133.35 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5933,7 +6095,7 @@
 			)
 		)
 		(property "Value" "On/off"
-			(at 120.65 193.0399 0)
+			(at 133.35 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,7 +6104,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 118.11 185.42 0)
+			(at 130.81 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5951,7 +6113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 185.42 0)
+			(at 130.81 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5960,7 +6122,7 @@
 			)
 		)
 		(property "Description" "JST Connector  2 pins"
-			(at 118.11 191.77 0)
+			(at 130.81 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5969,7 +6131,7 @@
 			)
 		)
 		(property "JLCPCB Part" ""
-			(at 118.11 191.77 0)
+			(at 130.81 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5986,73 +6148,6 @@
 			(project "timer-pcb-stepper"
 				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 151.13 185.42 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18092940-bcfb-4b7e-a2a6-5bdb1f78e669")
-		(property "Reference" "#PWR031"
-			(at 144.78 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 185.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae407f4a-4eaa-43ce-81e9-ea1b4df21006")
-		)
-		(instances
-			(project "timer-pcb-stepper"
-				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6334,6 +6429,72 @@
 			(project "Timer_PCB"
 				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 267.97 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31b042f5-9a91-46f1-9d56-d1af19322492")
+		(property "Reference" "#PWR031"
+			(at 267.97 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 267.97 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 267.97 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c70c4f18-9aaf-47dd-bfd1-2da866b51b76")
+		)
+		(instances
+			(project "timer-pcb-stepper"
+				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6848,26 +7009,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 110.49 193.04 90)
+		(lib_id "1_my_custom-_symbol_library:PCB_USB_connector")
+		(at 212.09 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e9548f1-bc6e-4721-a595-7e6cb2e2502e")
-		(property "Reference" "#PWR030"
-			(at 114.3 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 106.68 193.0399 90)
+		(uuid "5db2807a-5a03-4c4e-b07e-ab6929b19678")
+		(property "Reference" "U5"
+			(at 216.662 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6875,8 +7026,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 110.49 193.04 0)
+		(property "Value" "~"
+			(at 245.11 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1_My_Custom_Library:TP4056_chargeur_USB-C"
+			(at 212.09 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6885,7 +7045,83 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 193.04 0)
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b52c2c82-a82f-49b4-ae9a-ca7128afc095")
+		)
+		(pin "4"
+			(uuid "4e02f8d3-04ea-4bd0-aade-b07afb8becc5")
+		)
+		(pin "3"
+			(uuid "7c5ea8f4-face-4599-a4ce-b260c389ae87")
+		)
+		(pin "1"
+			(uuid "a4a03f54-08fc-4edc-b3dd-062a8ee99cd8")
+		)
+		(instances
+			(project "timer-pcb-stepper"
+				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 123.19 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e9548f1-bc6e-4721-a595-7e6cb2e2502e")
+		(property "Reference" "#PWR030"
+			(at 127 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 119.38 193.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6894,7 +7130,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 110.49 193.04 0)
+			(at 123.19 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7624,6 +7860,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-BATT")
+		(at 267.97 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cc7f0de-6a86-4132-8603-85574c87dc56")
+		(property "Reference" "#PWR012"
+			(at 267.97 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 267.97 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 267.97 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb348dfd-de8b-4705-b151-e0707dfcf69e")
+		)
+		(instances
+			(project "timer-pcb-stepper"
+				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 54.61 160.02 0)
 		(unit 1)
@@ -7684,6 +7986,73 @@
 			(project "timer-pcb-stepper"
 				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 205.74 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cbd718b-2b18-4c75-896d-fbc6b8ebf31a")
+		(property "Reference" "#PWR02"
+			(at 209.55 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 201.93 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 205.74 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8483f86-61e1-4b30-afc2-47037578d932")
+		)
+		(instances
+			(project "timer-pcb-stepper"
+				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8461,17 +8830,26 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Connectors:JST_04")
-		(at 158.75 189.23 0)
+		(lib_id "power:PWR_FLAG")
+		(at 262.89 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cc0c1ddd-1c4e-43f4-b9f8-48e22240ed65")
-		(property "Reference" "J11"
-			(at 161.29 187.7059 0)
+		(uuid "c672937f-5120-41ce-bd80-590c63ea6473")
+		(property "Reference" "#FLG03"
+			(at 260.985 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 259.08 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8479,17 +8857,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST_04"
-			(at 161.29 190.2459 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
-			(at 158.75 180.086 0)
+		(property "Footprint" ""
+			(at 262.89 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8497,8 +8866,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 158.75 180.086 0)
+		(property "Datasheet" "~"
+			(at 262.89 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8506,31 +8875,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "JST Connector  4 pins"
-			(at 158.75 189.23 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 262.89 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "4"
-			(uuid "c5637847-4c9a-4883-b46d-2514927279b9")
-		)
-		(pin "3"
-			(uuid "252b9619-e46f-4630-b2cf-b7745ac0008f")
 		)
 		(pin "1"
-			(uuid "0677f9f1-a097-4dc9-9e5e-7a022f951afe")
-		)
-		(pin "2"
-			(uuid "b2410427-c133-430c-b7f4-1176119fc2e7")
+			(uuid "7936e14b-d76c-4808-b9f4-55666accaf42")
 		)
 		(instances
-			(project ""
+			(project "timer-pcb-stepper"
 				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
-					(reference "J11")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -8902,6 +9262,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 205.74 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0f2d0fb-6549-4539-a8a7-e4ed512f53d8")
+		(property "Reference" "#PWR032"
+			(at 199.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65d1284b-86a1-4ea8-bcae-b70ea8667f95")
+		)
+		(instances
+			(project "timer-pcb-stepper"
+				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SL_Connectors:JST_03")
 		(at 133.35 93.98 0)
 		(unit 1)
@@ -8983,72 +9410,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 97.79 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e94021d1-9580-48b7-bc23-1c4c4c2d5cf1")
-		(property "Reference" "#FLG05"
-			(at 97.79 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 97.79 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 97.79 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "070ef51f-0986-4d47-b20d-7d07470682c9")
-		)
-		(instances
-			(project "timer-pcb-stepper"
-				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
-					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 127 134.62 270)
 		(unit 1)
@@ -9110,6 +9471,73 @@
 			(project "timer-pcb-stepper"
 				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 262.89 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec1205c8-9a3f-43ca-b929-4432641f4643")
+		(property "Reference" "#FLG04"
+			(at 260.985 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 259.08 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 262.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c02657ea-678f-47a5-94d7-f541687d8841")
+		)
+		(instances
+			(project "timer-pcb-stepper"
+				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -9188,6 +9616,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-BATT")
+		(at 140.97 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecc7a82a-3a0e-4da4-9c42-7bf5c3b45a35")
+		(property "Reference" "#PWR04"
+			(at 144.78 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 137.16 170.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 140.97 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34e779a2-f82f-4538-997d-b5dd9d90cb5b")
+		)
+		(instances
+			(project "timer-pcb-stepper"
+				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 158.75 62.23 0)
 		(unit 1)
@@ -9248,6 +9743,73 @@
 			(project "timer-pcb-stepper"
 				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 205.74 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f29b8bcf-31f5-4564-868e-1eff89c3793f")
+		(property "Reference" "#PWR03"
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 201.93 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 205.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88f988c5-1f10-482b-b547-b7bb2b142a79")
+		)
+		(instances
+			(project "timer-pcb-stepper"
+				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
