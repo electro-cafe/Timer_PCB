@@ -254,6 +254,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3188,6 +3295,12 @@
 		(uuid "eff33d7d-27b8-428b-9b3c-b155a717d02d")
 	)
 	(junction
+		(at 60.96 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11168cae-5966-474a-b34e-27bc6483d939")
+	)
+	(junction
 		(at 64.77 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3198,6 +3311,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "397e6bb7-2d62-40af-ab54-b8f21a44b152")
+	)
+	(junction
+		(at 49.53 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ae50733-b00b-4a3a-90ed-dcfe88386dcf")
 	)
 	(junction
 		(at 257.81 62.23)
@@ -3282,10 +3401,6 @@
 		(uuid "3368013a-df33-4ad2-b9a8-fb1689e4f65e")
 	)
 	(no_connect
-		(at 68.58 95.25)
-		(uuid "33b6b6c3-a227-47bb-803d-6c3b2d3c9380")
-	)
-	(no_connect
 		(at 223.52 38.1)
 		(uuid "34000c54-68e9-413d-9c72-6cd2270db9ae")
 	)
@@ -3346,10 +3461,6 @@
 		(uuid "e56cb975-96b6-4bae-afd8-6526949e79af")
 	)
 	(no_connect
-		(at 68.58 128.27)
-		(uuid "ea03a370-8c70-4ff4-8f61-6fafd7c21769")
-	)
-	(no_connect
 		(at 27.94 95.25)
 		(uuid "f124647d-edb6-43c2-9275-6089f71f4ced")
 	)
@@ -3399,7 +3510,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 148.59) (xy 63.5 148.59)
+			(xy 54.61 148.59) (xy 60.96 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3476,16 +3587,6 @@
 			(type default)
 		)
 		(uuid "0d701abd-b0c6-44af-b0f9-209abd9551ad")
-	)
-	(wire
-		(pts
-			(xy 29.21 125.73) (xy 30.48 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d929b1c-4dd2-430e-9eb0-1e27afe95fc4")
 	)
 	(wire
 		(pts
@@ -3839,6 +3940,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 130.81) (xy 16.51 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42518dec-b275-4d52-af62-cb7cc197fc60")
+	)
+	(wire
+		(pts
 			(xy 153.67 62.23) (xy 158.75 62.23)
 		)
 		(stroke
@@ -4099,7 +4210,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 160.02) (xy 54.61 160.02)
+			(xy 46.99 160.02) (xy 49.53 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4276,6 +4387,16 @@
 			(type default)
 		)
 		(uuid "a49b08cf-2618-45d8-bf3d-98432a91543f")
+	)
+	(wire
+		(pts
+			(xy 49.53 160.02) (xy 54.61 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5150638-98fc-4f0c-96a3-e74705225151")
 	)
 	(wire
 		(pts
@@ -4469,6 +4590,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 125.73) (xy 30.48 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4228f4c-e5b6-4075-8848-60a3df89dda4")
+	)
+	(wire
+		(pts
 			(xy 262.89 50.8) (xy 262.89 53.34)
 		)
 		(stroke
@@ -4549,16 +4680,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 95.25) (xy 68.58 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc6ff413-5630-400b-a0b7-a309eeb75d48")
-	)
-	(wire
-		(pts
 			(xy 247.65 25.4) (xy 247.65 22.86)
 		)
 		(stroke
@@ -4586,6 +4707,16 @@
 			(type default)
 		)
 		(uuid "e4de310c-e2be-40dd-bd9f-44b6de1e6c5d")
+	)
+	(wire
+		(pts
+			(xy 60.96 148.59) (xy 63.5 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4dff44c-3210-4319-986f-1eadc3931e7f")
 	)
 	(wire
 		(pts
@@ -6192,7 +6323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 130.81 185.42 0)
 			(effects
 				(font
@@ -6790,7 +6921,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 29.21 125.73 90)
+		(at 68.58 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6799,7 +6930,7 @@
 		(fields_autoplaced yes)
 		(uuid "4746f0e9-013b-4207-9657-687ec664c485")
 		(property "Reference" "#PWR025"
-			(at 33.02 125.73 0)
+			(at 64.77 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6808,7 +6939,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 25.4 125.7299 90)
+			(at 72.39 128.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6817,7 +6948,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 125.73 0)
+			(at 68.58 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6826,7 +6957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 125.73 0)
+			(at 68.58 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6835,7 +6966,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 29.21 125.73 0)
+			(at 68.58 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6988,6 +7119,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 49.53 160.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49133864-e93a-47ad-b343-d0e89c7cbb50")
+		(property "Reference" "TP4"
+			(at 46.99 164.5921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 47.498 163.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+			(at 44.45 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 49.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2303edce-1078-40d6-aeb0-91c8b6fd1797")
+		)
+		(instances
+			(project "timer-pcb-stepper"
+				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SL_Connectors:JST_03")
 		(at 133.35 152.4 0)
 		(unit 1)
@@ -7063,6 +7261,73 @@
 			(project "timer-pcb-stepper"
 				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 60.96 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c8474ef-7a53-48af-8ac3-d389500d4d76")
+		(property "Reference" "TP2"
+			(at 63.5 144.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 62.992 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+			(at 66.04 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 60.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb74d34e-55b2-42d0-aaee-5c8bdbe2c009")
+		)
+		(instances
+			(project "timer-pcb-stepper"
+				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -7870,7 +8135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 148.59 165.1 0)
 			(effects
 				(font
@@ -8977,6 +9242,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 66.04 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd33e3e8-596c-4e77-b5c9-a9a576b99e82")
+		(property "Reference" "TP3"
+			(at 71.12 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 72.136 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+			(at 66.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 66.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1e606e7-5ee1-4227-9ee4-b36c1c047f80")
+		)
+		(instances
+			(project "timer-pcb-stepper"
+				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 262.89 142.24 90)
 		(unit 1)
@@ -9543,6 +9875,74 @@
 			(project "timer-pcb-stepper"
 				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 16.51 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e29f2e46-73bf-476f-8eba-ce07bd34f971")
+		(property "Reference" "TP1"
+			(at 13.97 135.3821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 19.05 134.1119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+			(at 11.43 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 11.43 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 16.51 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e006d3b-6ee8-47c2-8d28-92037fd33773")
+		)
+		(instances
+			(project ""
+				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
