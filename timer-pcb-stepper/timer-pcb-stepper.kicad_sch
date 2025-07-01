@@ -4280,6 +4280,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 52.07) (xy 111.76 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ea0ba6-56aa-4073-a272-11cba711d6ae")
+	)
+	(wire
+		(pts
 			(xy 66.04 115.57) (xy 68.58 115.57)
 		)
 		(stroke
@@ -4500,6 +4510,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 49.53) (xy 257.81 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b49442f7-4333-45e4-9d01-5d1d1aff1f86")
+	)
+	(wire
+		(pts
 			(xy 125.73 154.94) (xy 129.54 154.94)
 		)
 		(stroke
@@ -4650,6 +4670,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 48.26) (xy 111.76 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff0abf0-3c6e-4eea-be95-0c987c9ace89")
+	)
+	(wire
+		(pts
 			(xy 74.93 52.07) (xy 74.93 54.61)
 		)
 		(stroke
@@ -4720,6 +4750,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 50.8) (xy 69.85 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c7eeb2-d8b7-4454-b117-7d7e2e8fab53")
+	)
+	(wire
+		(pts
 			(xy 220.98 30.48) (xy 223.52 30.48)
 		)
 		(stroke
@@ -4747,6 +4787,16 @@
 			(type default)
 		)
 		(uuid "e8715b4b-e852-421e-b6ea-5669bbc9c772")
+	)
+	(wire
+		(pts
+			(xy 158.75 50.8) (xy 158.75 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed15976d-6ac5-4c68-8638-a15447014f35")
 	)
 	(wire
 		(pts
@@ -6920,6 +6970,137 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 111.76 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41f497cc-4d4e-4636-a447-6d8f21e63926")
+		(property "Reference" "#PWR040"
+			(at 111.76 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 111.76 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab011348-54e9-4d0a-9b4c-d0572addc0cd")
+		)
+		(instances
+			(project "timer-pcb-stepper"
+				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 247.65 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44752d0b-9459-43d4-ab85-e8c3636b1204")
+		(property "Reference" "#PWR035"
+			(at 247.65 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 247.65 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 247.65 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51022d62-9756-41e2-8606-9a612bdf16cb")
+		)
+		(instances
+			(project "timer-pcb-stepper"
+				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 68.58 128.27 270)
 		(unit 1)
@@ -8338,6 +8519,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 257.81 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d5178c8-7bbe-4416-9ff6-0113312da87c")
+		(property "Reference" "#PWR038"
+			(at 257.81 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 257.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 257.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd5bdc3b-720b-4dcd-a18d-6e0d46eba24e")
+		)
+		(instances
+			(project "timer-pcb-stepper"
+				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 54.61 160.02 0)
 		(unit 1)
@@ -8557,71 +8804,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 158.75 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "944497be-6f26-4642-a2f6-0b5dcf1d8263")
-		(property "Reference" "#PWR016"
-			(at 158.75 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 158.75 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 158.75 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84d47491-eef3-45f5-acbf-6b5e3e82f77a")
-		)
-		(instances
-			(project "timer-pcb-stepper"
-				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 257.81 62.23 0)
 		(unit 1)
@@ -8689,16 +8871,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 64.77 20.32 0)
+		(at 69.85 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bedef5d-cadb-4bcd-a71e-911535221895")
-		(property "Reference" "#PWR01"
-			(at 64.77 24.13 0)
+		(uuid "9b306b9e-cfbf-4087-a4cf-00d58aa00798")
+		(property "Reference" "#PWR037"
+			(at 69.85 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8707,7 +8888,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 64.77 15.24 0)
+			(at 69.85 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8715,7 +8896,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 20.32 0)
+			(at 69.85 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8724,7 +8905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 20.32 0)
+			(at 69.85 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8733,7 +8914,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 64.77 20.32 0)
+			(at 69.85 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8742,12 +8923,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee96ac47-34cd-4a52-800d-f8c28dd0a8ba")
+			(uuid "c3bc20c2-59c7-4373-a4d5-b4e4fe949625")
 		)
 		(instances
-			(project ""
+			(project "timer-pcb-stepper"
 				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
-					(reference "#PWR01")
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 158.75 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a173baf1-d441-4333-aeed-f3430c694b62")
+		(property "Reference" "#PWR036"
+			(at 158.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 158.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea13cf1f-1fe7-4e34-abba-148a1e7880b4")
+		)
+		(instances
+			(project "timer-pcb-stepper"
+				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8883,16 +9129,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 247.65 21.59 0)
+		(at 64.77 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a492e0b5-36bd-470e-906b-7afa3813e75a")
-		(property "Reference" "#PWR013"
-			(at 247.65 25.4 0)
+		(uuid "a38fafe0-c0bc-4ba5-a9ac-f31feceac946")
+		(property "Reference" "#PWR033"
+			(at 64.77 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8901,7 +9146,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 247.65 16.51 0)
+			(at 64.77 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8909,7 +9154,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 21.59 0)
+			(at 64.77 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8918,7 +9163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 21.59 0)
+			(at 64.77 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8927,7 +9172,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 247.65 21.59 0)
+			(at 64.77 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8936,12 +9181,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "834044db-e290-4a6c-9bce-603689e05ec9")
+			(uuid "522e669e-0192-4796-88fe-24a46121b6ed")
 		)
 		(instances
-			(project "Timer_PCB"
+			(project "timer-pcb-stepper"
 				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
-					(reference "#PWR013")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9016,15 +9261,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 69.85 52.07 0)
+		(at 146.05 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b479fe66-181a-4563-8b35-c70cdc57213b")
-		(property "Reference" "#PWR019"
-			(at 69.85 55.88 0)
+		(uuid "b0cc7fdc-674a-49ed-9dc0-242ff627cf97")
+		(property "Reference" "#PWR034"
+			(at 146.05 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9033,7 +9278,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 69.85 46.99 0)
+			(at 146.05 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9041,7 +9286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 52.07 0)
+			(at 146.05 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9050,7 +9295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 52.07 0)
+			(at 146.05 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9059,7 +9304,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 69.85 52.07 0)
+			(at 146.05 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9068,29 +9313,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "27bb9dc3-c430-4fe9-a908-592297ae8a43")
+			(uuid "235d8a3c-e64f-4b1f-89b1-088357d353d1")
 		)
 		(instances
 			(project "timer-pcb-stepper"
 				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
-					(reference "#PWR019")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 257.81 50.8 0)
+		(lib_id "power:PWR_FLAG")
+		(at 106.68 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bb0bc3e8-16ff-493f-adc6-2edf6cdf7974")
-		(property "Reference" "#PWR022"
-			(at 257.81 54.61 0)
+		(uuid "b0e86c03-92c6-4e0f-97f4-1ed64d31ad9f")
+		(property "Reference" "#FLG06"
+			(at 104.775 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9098,16 +9343,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 257.81 45.72 0)
+		(property "Value" "PWR_FLAG"
+			(at 102.87 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 50.8 0)
+			(at 106.68 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9115,8 +9361,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 257.81 50.8 0)
+		(property "Datasheet" "~"
+			(at 106.68 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9124,8 +9370,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 257.81 50.8 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 106.68 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9134,12 +9380,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5de95133-2a69-42cb-a4d7-ae3fa3bc6b8b")
+			(uuid "2b2f572c-6dd5-4f55-8a74-3c9831968db7")
 		)
 		(instances
 			(project "timer-pcb-stepper"
 				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
-					(reference "#PWR022")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -10436,71 +10682,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 146.05 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2d15d31-abd1-4cca-8cd1-3bc85d95a544")
-		(property "Reference" "#PWR011"
-			(at 146.05 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 146.05 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 146.05 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50607088-446f-41cb-886f-b96bbbf57aac")
-		)
-		(instances
-			(project "Timer_PCB"
-				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 264.16 90.17 0)
 		(unit 1)
@@ -10677,8 +10858,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f720532b-289b-4d67-a50c-7b95c9bf1ae0")
-		(property "Reference" "#PWR024"
+		(uuid "f8220b65-8d6f-4bc2-a5e8-357f10f91b9e")
+		(property "Reference" "#PWR039"
 			(at 129.54 152.4 0)
 			(effects
 				(font
@@ -10724,12 +10905,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b6b9153-f915-4395-9681-5ef73a9b29a7")
+			(uuid "a3380dca-e3d2-4a56-ba98-a6d86cb99b80")
 		)
 		(instances
 			(project "timer-pcb-stepper"
 				(path "/c4cfdf40-c3b2-4c58-998c-a7d7b70b9691"
-					(reference "#PWR024")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
