@@ -526,7 +526,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "kicad_to_blender/timer-pcb-led.step",
       "svg": "",
       "vrml": ""
     },
@@ -613,6 +613,12 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part",
+          "name": "JLCPCB Part",
           "show": false
         }
       ],

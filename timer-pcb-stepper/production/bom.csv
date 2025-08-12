@@ -1,0 +1,4 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C3, C5, C7",0805,4,10uF,C1713
+"C2, C4, C6, C8",0603,4,100nF,C14663
+"U2, U3, U4",SOIC-16_4.55x10.3mm_P1.27mm,3,ULN2003,
